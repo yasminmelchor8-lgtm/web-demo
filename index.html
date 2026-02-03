@@ -1,10 +1,148 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="en">
 <head>
-  <title>My First Wbesite</title>
+  <meta charset="UTF-8">
+  <title>Student Profile | Yasmin Melchor</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }body {
+  background-color: #f5f4f2; /* cream */
+  color: #222;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Header */
+.profile-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #111, #777);
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 15px;
+}
+
+/* Sections */
+.section {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-left: 4px solid #222;
+  padding-left: 10px;
+}
+
+/* Hobbies */
+.hobbies {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.hobby {
+  background: #efefef;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* Quote */
+.quote {
+  font-style: italic;
+  color: #444;
+  border-left: 4px solid #999;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+  margin-top: 30px;
+}
+
+  </style>
 </head>
-<body>
-  <h1>Hello, Web!</h1>
-  <p> This site is live. </p>
-</body>
+<body>  <div class="container"><!-- Profile Header -->
+<div class="profile-card">
+  <div class="avatar">YM</div>
+  <h1>Yasmin Melchor</h1>
+  <p class="subtitle">1st Year BSIT Student</p>
+  <p class="subtitle">Dr. Yangas Colleges Incorporated</p>
+</div>
+
+<!-- About Section -->
+<div class="section">
+  <h2>About Me</h2>
+  <p>
+    I am a first-year BSIT student who enjoys learning about technology while balancing academics with creative and relaxing hobbies.
+  </p>
+</div>
+
+<!-- Hobbies Section -->
+<div class="section">
+  <h2>Hobbies</h2>
+  <div class="hobbies">
+    <div class="hobby">📖 Reading</div>
+    <div class="hobby">🎮 Gaming</div>
+    <div class="hobby">🎬 Watching</div>
+  </div>
+</div>
+
+<!-- Favorite Quote Section -->
+<div class="section">
+  <h2>Favorite Book Quote</h2>
+  <p class="quote">
+    “Beauty is terror. Whatever we call beautiful, we quiver before it.”<br><br>
+    — Donna Tartt, <em>The Secret History</em>
+  </p>
+</div>
+
+<footer>
+  © 2026 Student Profile Website
+</footer>
+
+  </div></body>
 </html>
+
+
